@@ -1,0 +1,205 @@
+a{
+	text-decoration: none;
+}
+*{
+	margin: 0;
+	padding: 0px;
+}
+body{
+font-family: 'Roboto', sans-serif;
+display: flex;
+flex-direction: column;
+}
+.container{
+	width: 1240px;
+	margin: 0px auto;
+}
+.backraund{
+background-image: linear-gradient(to top, #63c9c4 0%, #f9e9a7 100%);
+background-size: cover;
+}
+.header{
+background-image: url(../img/magneto.png);
+background-repeat: no-repeat;
+background-size: contain;
+background-position:115% -50px;
+width: 100%;
+height: 100%;
+}
+.logo{
+	position: relative;
+	top: -40px;
+	left: 127px;
+	width: 206px;
+	height: 125px;
+	background: #fff;
+	border-radius: 15px;
+	-webkit-transform: skew(0deg) rotate(-8deg);
+	        transform: skew(0deg) rotate(-8deg);
+}
+.logo p{
+	font-family: 'Londrina Outline', cursive;
+	text-align: center;
+	font-size: 48px;
+	line-height: 140px;
+	font-weight:600;
+}
+ 
+.firstPading{
+	color: #44a09b;
+	font-size: 24px;
+	font-weight: 600;
+	padding-top: 220px;
+	margin-left: 142px;
+}
+
+h1{
+	width: 652px;
+	font-size: 47px;
+	font-weight:400;
+	padding-top: 20px;
+	padding-left: 138px;
+}
+
+.button{
+	margin-top: 68px;
+	background-color: #fff;
+	width: 50%;
+	height: 162px;
+	border-radius: 0 150px 150px 0;
+}
+
+.button p{
+	padding-left: 20%;
+	color: #ff8141;
+	font-size: 18px;
+	padding-top: 29px;
+}
+
+.register{
+	margin-left: 20%;
+	margin-top: 13px;
+	text-align: center;
+	border-radius: 100px;
+	background-color: #ff8141;
+	width: 354px;
+	height: 46px;
+}
+.register a{
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 46px;
+
+}
+.scroll{
+	width: 130px;
+	height: 80px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	margin-left: 50%;
+	margin-top: 72px;
+}
+.scroll a{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.body{
+	display: flex;
+	}
+.video{
+	display: flex;
+	align-items: center;
+	background-image: url(../img/7_ways.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 60%;
+}
+
+
+.play{
+	margin-left: 37%;
+	width: 20%;	
+}
+
+.cirkle{
+	opacity: 0.64;
+}
+
+.arr{
+	align-self: end;
+	width: 30%;
+	height: 25%;
+	background:url(../img/arrow.png) no-repeat ;
+	background-size: 65% 65%;
+	padding-bottom: 15%;
+	margin-left: -2%;
+	background-position: left top;
+}
+
+.arrowText{
+	position: relative;
+	top:80%;
+	left: 65%;
+	width: 70%;
+	height: 50%;
+	-webkit-transform: skew(0deg) rotate(15deg);
+	        transform: skew(0deg) rotate(15deg);
+	font-family: 'Poor Story', cursive;
+	font-size: 30px;
+}
+.list{
+	width: 40%;
+	margin-left:5%;
+
+}
+.list h2{
+	width: 85%;
+	margin-top: 30px;
+	text-align:left;
+	color: #3a4a62;
+	font-size: 32px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+ul{	width: 85%;
+	 list-style: url(../img/arr.png); 
+}
+li{
+	
+	margin-top: 10px;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.heart{
+	font-size: 18px;
+	margin-top: 25px;
+	margin-left: -20px;
+	margin-bottom: 25px;
+	background: url(../img/heart.png) no-repeat center left;
+	padding:0px 0px 0px 20px;
+
+}
+.list .register{
+	margin-bottom: 18px;
+	margin-left: 0;
+
+}
+footer{
+	background-color: #273d50;
+	text-align:center;
+}
+
+footer a{
+	font-size: 48px;
+	color: white;
+	text-transform:uppercase;
+	line-height: 140px;
+}
